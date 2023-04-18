@@ -3,9 +3,7 @@ name: Build and publish Docker image
 on: 
   release:
     types: [created]
-    branches:
-      - master
-
+   
 jobs:
   my-job:
     runs-on: ubuntu-latest
