@@ -8,6 +8,7 @@ RUN git clone https://github.com/ScottAMat/open-cravat.git --single-branch --bra
     pip install ./open-cravat && \
     pip install open-cravat-multiuser aiosqlite3 scipy pytabix
 
+# This is a test build
 # Needed for gds-converter module
 # Install latest R, folllowing docs at https://cloud.r-project.org/bin/linux/debian/
 RUN apt install -y --no-install-recommends software-properties-common dirmngr && \
