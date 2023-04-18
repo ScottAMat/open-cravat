@@ -20,4 +20,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/myimage:${{ github.sha }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/opencravat:${{ github.sha }}
