@@ -2,7 +2,6 @@ name: Build and publish Docker image
 
 on: 
   release:
-    types: [created]
    
 jobs:
   my-job:
