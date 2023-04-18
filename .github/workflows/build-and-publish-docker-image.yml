@@ -1,9 +1,9 @@
 name: Build and publish Docker image
 
 on: 
-  push:
+  release:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-publish:
