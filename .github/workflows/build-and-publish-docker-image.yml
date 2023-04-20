@@ -7,8 +7,8 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - name: My Step
-        run: echo "Hello, World"
+      - name: Build It
+        run: echo "TBuilding Image"
   build-and-publish:
     runs-on: ubuntu-latest
     steps:
