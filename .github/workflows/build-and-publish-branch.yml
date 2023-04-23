@@ -2,8 +2,8 @@ name: Manual Trigger Workflow
 on:
   workflow_dispatch:
   push:
-   
-      
+    branches: [ ScottAMat ]
+         
 jobs:
    build-and-publish:
     runs-on: ubuntu-latest
