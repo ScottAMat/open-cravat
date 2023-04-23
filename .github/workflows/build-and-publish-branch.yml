@@ -12,6 +12,7 @@ jobs:
       - name: Build project
         run: |
           npm install
+          npm init -y
           npm run build
       - name: Publish package
         run: |
