@@ -1,8 +1,9 @@
 name: Manual Trigger Workflow
 on:
   workflow_dispatch:
-    branches:
-      - main
+  push:
+      branches:
+      
 jobs:
   build:
     runs-on: ubuntu-latest
