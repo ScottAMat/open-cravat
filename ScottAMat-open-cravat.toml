@@ -1,9 +1,0 @@
-[project]
-name = "ScottAMat-open-cravat"
-version = "0.0.1"
-authors = [
-  { name="Aaron M Scott", email="aaron.m.scott@comcast.net" },
-]
-
-[project.urls]
-"Homepage" = "https://github.com/ScotAMat/open-cravat"
