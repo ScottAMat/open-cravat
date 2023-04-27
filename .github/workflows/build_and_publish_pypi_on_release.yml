@@ -1,4 +1,4 @@
-name: Publish to PyPI.org
+name: Publish Release to PyPI.org
 on:
    release:
 jobs:
