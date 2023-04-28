@@ -2,7 +2,9 @@ FROM python:3.8
 
 ARG PACKAGEDIR=/usr/local/lib/python3.8/site-packages/cravat
 #ARG BRANCH=master
-ARG BRANCH=${{ github.ref_name }}
+#ARG BRANCH=${{ github.ref_name }}
+
+echo ${GITHUB_REF##*/}
 
 RUN apt update && apt install -y vim sqlite3
 RUN git clone https://github.com/ScottAMat/open-cravat.git --single-branch --branch $BRANCH && \
