@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build It
-        run: echo "TBuilding Image"
+        run: echo "Building package and Docker Image"
   build-and-publish:
     runs-on: ubuntu-latest
     steps:
