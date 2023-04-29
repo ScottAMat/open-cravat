@@ -1,8 +1,7 @@
 name: Manual Trigger Workflow
 on:
   workflow_dispatch:
-  #push:
-      
+        
 jobs:
    build-and-publish:
     runs-on: ubuntu-latest
