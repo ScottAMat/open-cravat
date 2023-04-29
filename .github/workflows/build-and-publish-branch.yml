@@ -2,7 +2,7 @@ name: Manual Trigger Workflow
 on:
   workflow_dispatch:
   push:
-    branches: [ ScottAMat ]
+    branches: [ ScottAMat-Automation ]
          
 jobs:
    build-and-publish:
